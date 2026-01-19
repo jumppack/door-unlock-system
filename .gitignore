@@ -1,0 +1,9 @@
+.DS_Store
+.vscode/
+*.bin
+*.elf
+*.lst
+*.o
+/build/
+/test_build/
+codeForESP8266/
