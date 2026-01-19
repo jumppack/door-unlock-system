@@ -10,7 +10,7 @@
     -   Used strictly for the Servo Motor to ensure sufficient current and prevent voltage sag on the NodeMCU.
 
 ## Power Connections
-*   **NodeMCU**: Powered via USB (initial testing) or separate 5V source.
+*   **NodeMCU**: Powered via Type-C cable (initial testing) or separate 5V source.
 *   **Servo**: Powered directly by the 6V Battery Pack.
 *   **Common Ground**: The Battery Pack Negative (GND) MUST be connected to the NodeMCU GND pin. This is critical for the control signal to work.
 

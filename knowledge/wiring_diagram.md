@@ -10,7 +10,7 @@ graph TD
     subgraph Controller [NodeMCU ESP8266]
         ESP_GND[GND]
         ESP_D4[Pin D4 (GPIO2)]
-        ESP_USB[USB Power]
+        ESP_C[Type-C Power]
     end
 
     subgraph Actuator [Miuzei Servo 270°]
@@ -28,7 +28,7 @@ graph TD
     ESP_D4 -->|PWM Signal| Servo_Sig
 
     %% Controller Power
-    ESP_USB -.->|5V| Controller
+    ESP_C -.->|5V| Controller
 ```
 
 ![Wiring Diagram Rendered](./wiring_diagram.png)
