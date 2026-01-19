@@ -30,3 +30,6 @@ graph TD
     %% Controller Power
     ESP_USB -.->|5V| Controller
 ```
+
+![Wiring Diagram Rendered](./wiring_diagram.png)
+
